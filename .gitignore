@@ -1,3 +1,4 @@
 *.zip
 .env
 .pytest_cache
+src.egg-info/
