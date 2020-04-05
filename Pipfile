@@ -1,0 +1,15 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+pandas = "*"
+pytest = "*"
+src = {editable = true,path = "."}
+flake8 = "*"
+
+[requires]
+python_full_version = "3.7"
